@@ -1,1 +1,14 @@
 @import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+  .nice-background {
+    background-color: #f3dbb1;
+    background-size: cover;
+    width: 80%;
+    height: 80%;
+    align-items: left;
+    display: flex;
+    height: 500px;
+  }
+  .header h1.logo{
+  font-size :1em;
+  margin: var(--lumo-space.m);
+  }

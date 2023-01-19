@@ -1,5 +1,6 @@
 package com.example.application;
 
+import com.vaadin.flow.component.dependency.CssImport;
 import com.vaadin.flow.component.dependency.NpmPackage;
 import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.theme.Theme;
@@ -13,6 +14,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * and some desktop browsers.
  *
  */
+@CssImport("./styles/styles.css")
+
 @SpringBootApplication
 @Theme(value = "mytodo")
 @NpmPackage(value = "line-awesome", version = "1.3.0")

@@ -13,3 +13,6 @@
 .login-rich-content vaadin-login-form-wrapper {
   background-image: none;
 }
+.mystyle {
+      font-family: Arial;
+      font-size: 44px;}

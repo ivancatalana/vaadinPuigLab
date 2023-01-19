@@ -1,0 +1,10 @@
+@import url('line-awesome/dist/line-awesome/css/line-awesome.min.css');
+  .nice-background {
+    background-color: red;
+    background-size: cover;
+    width: 80%;
+    height: 80%;
+     display: flex;
+     height: 500px;
+  }
+    align-items: center;
